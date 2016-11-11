@@ -18,28 +18,16 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic1.png)
 
   2.2).	โปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.PNG">
 
 ###คำถาม 6.1 ถ้าพิมพ์ตัวอักษรจำนวนหลายๆ ตัวแล้วกด Enter จะได้ผลอย่างไร ทำไมจึงเป็นเช่นนั้น
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+ตอบ ได้แค่ตัวแรกเพราะ อ่านได้แค่ค่าเดียว 
 
 ###คำถาม 6.2 ในบรรทัดที่ 11 ซึ่งมีโปรแกรมเป็น ```ch = (char)Console.Read();```  นั้น ถ้าตัด ```(char)``` ออกไป จะเกิดอะไรขึ้น ให้อธิบายประกอบ
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+ตอบ มันจะ error เพราะมันไม่รุ้ว่าค่าที่จะอ่านเป็นชนิดไหน
 
 3).	โปรแกรมสำหรับรับ string จากคีย์บอร์ด
  
@@ -48,12 +36,8 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic2.png)
  
  3.2).	โปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.1.PNG">
 
 4).	โปรแกรมสำหรับรับค่าตัวเลข เนื่องจากคำสั่ง ```Read()``` และ ```ReadLine()``` จะรับเฉพาะตัวอักษร การรับตัวเลข เราต้องใช้เมธอด TryParse() มาช่วยแปลงค่า
 
@@ -62,20 +46,12 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic3.png)
 
 4.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.2.PNG">
 
 ###คำถาม 6.3 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น มีวิธีการป้องกันหรือแก้ไขอย่างไร
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+ตอบ จะเกิด error ใช้คำสั่ง try{…} catch{…}
 
 5).	โปรแกรมสำหรับรับค่าตัวเลข แต่ในบางกรณีที่ผู้ใช้ป้อนตัวอักษร จะทำให้เกิด error และทำให้โปรแกรม hang ได้ จึงต้องมีการป้องกันโดยใช้ประโยค ```try{…} catch{…}```  (ประโยค ```try{…} catch{…}``` นี้จะศึกษารายละเอียดภายหลัง)
 
@@ -84,22 +60,18 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic4.png)
 
   5.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.4.PNG">
 
 ###คำถาม 6.4 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น เหมือนหรือต่างจากโปรแกรมก่อนหน้านี้อย่างไร
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+ต่าง 
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.3.PNG">
 
 ##แบบฝึกหัด ให้เขียน code ในการรับค่าอินพุตต่อไปนี้และแสดงออกหน้าจอให้ถูกต้อง
+
+<img src = "https://github.com/believemesall/LAB-06/blob/master/LAB6.5.PNG">
+
 ``` Name :  (ป้อนชื่อของนักศึกษา). ```
 
 ``` Lastname : (ป้อนนามสกุลนักศึกษา).```
